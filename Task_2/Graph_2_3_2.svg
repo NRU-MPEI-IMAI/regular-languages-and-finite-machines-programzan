@@ -1,0 +1,76 @@
+<svg width="726" height="789" viewBox="0 0 544.5 591.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(117.66999816894531,367.87000274658203) scale(1)">
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-147.99 313.16,-147.99 313.16,4 -4,4"/>
+<text text-anchor="middle" x="154.58" y="-8.2" font-family="Times,serif" font-size="14.00">Figure 3.2: Finite machine to the task 2.3</text>
+<g id="node1" class="node">
+<title/>
+</g>
+<!-- q1 -->
+<g id="node2" class="node">
+<title style="">p1</title>
+<ellipse fill="none" stroke="black" cx="115.69" cy="-49.49" rx="20.86" ry="20.86" style=""/>
+<ellipse fill="none" stroke="black" cx="115.69" cy="-49.49" rx="24.89" ry="24.89" style=""/>
+<text text-anchor="middle" x="115.69" y="-45.29" font-family="Times,serif" font-size="14.00" style="">p1</text>
+</g>
+<!-- &#45;&gt;q1 -->
+<g id="edge1" class="edge">
+<title style="">-&gt;p1</title>
+<path fill="none" stroke="black" d="M54.01,-49.49C62.4,-49.49 71.82,-49.49 80.7,-49.49"/>
+<polygon fill="black" stroke="black" points="80.77,-52.99 90.77,-49.49 80.77,-45.99 80.77,-52.99"/>
+</g>
+<!-- q3_p3 -->
+<g id="edge3" class="edge">
+<title style="">p1-&gt;p1</title>
+<path fill="none" stroke="black" d="M107.91,-73.2C107.28,-83.43 109.87,-92.19 115.69,-92.19 119.42,-92.19 121.83,-88.59 122.91,-83.32" style=""/>
+<polygon fill="black" stroke="black" points="126.41,-83.38 123.47,-73.2 119.42,-82.99 126.41,-83.38" style=""/>
+<text text-anchor="middle" x="115.69" y="-96.39" font-family="Times,serif" font-size="14.00" style="">a</text>
+</g>
+<!-- q3_p3&#45;&gt;q3_p3 -->
+<g id="node3" class="node">
+<title style="">p2</title>
+<ellipse fill="none" stroke="black" cx="204.08" cy="-88.49" rx="20.89" ry="20.89" style=""/>
+<text text-anchor="middle" x="204.08" y="-84.29" font-family="Times,serif" font-size="14.00" style="">p2</text>
+</g>
+<!-- q2_p1 -->
+<g id="edge2" class="edge">
+<title style="">p1-&gt;p2</title>
+<path fill="none" stroke="black" d="M138.49,-59.33C149.77,-64.43 163.66,-70.7 175.66,-76.11" style=""/>
+<polygon fill="black" stroke="black" points="174.24,-79.31 184.79,-80.24 177.12,-72.93 174.24,-79.31" style=""/>
+<text text-anchor="middle" x="161.89" y="-74.69" font-family="Times,serif" font-size="14.00" style="">b</text>
+</g>
+<!-- q1_p1&#45;&gt;q2_p1 -->
+<g id="edge4" class="edge">
+<title style="">p2-&gt;p2</title>
+<path fill="none" stroke="black" d="M196.48,-108C195.31,-118.09 197.85,-127.19 204.08,-127.19 208.07,-127.19 210.55,-123.45 211.5,-118.12" style=""/>
+<polygon fill="black" stroke="black" points="215.01,-118.06 211.68,-108 208.01,-117.94 215.01,-118.06" style=""/>
+<text text-anchor="middle" x="204.08" y="-131.39" font-family="Times,serif" font-size="14.00" style="">a</text>
+</g>
+<!-- q1_p2 -->
+<g id="node4" class="node">
+<title style="">p3</title>
+<ellipse fill="none" stroke="black" cx="288.47" cy="-49.49" rx="20.89" ry="20.89" style=""/>
+<text text-anchor="middle" x="288.47" y="-45.29" font-family="Times,serif" font-size="14.00" style="">p3</text>
+</g>
+<!-- p2&#45;&gt;p3 -->
+<g id="edge5" class="edge">
+<title style="">p2-&gt;p3</title>
+<path fill="none" stroke="black" d="M223.36,-79.84C234.21,-74.7 248.17,-68.1 260.29,-62.36" style=""/>
+<polygon fill="black" stroke="black" points="261.98,-65.43 269.52,-57.99 258.98,-59.11 261.98,-65.43" style=""/>
+<text text-anchor="middle" x="246.27" y="-73.69" font-family="Times,serif" font-size="14.00" style="">b</text>
+</g>
+<!-- p3&#45;&gt;p1 -->
+<g id="edge7" class="edge">
+<title style="">p3-&gt;p1</title>
+<path fill="none" stroke="black" d="M267.76,-46.41C255.44,-44.63 239.22,-42.59 224.77,-41.69 206.41,-40.56 201.75,-40.62 183.39,-41.69 172.65,-42.32 160.99,-43.51 150.47,-44.77" style=""/>
+<polygon fill="black" stroke="black" points="149.89,-41.32 140.4,-46.04 150.76,-48.26 149.89,-41.32" style=""/>
+<text text-anchor="middle" x="204.08" y="-45.69" font-family="Times,serif" font-size="14.00" style="">b</text>
+</g>
+<!-- p3&#45;&gt;p3 -->
+<g id="edge6" class="edge">
+<title style="">p3-&gt;p3</title>
+<path fill="none" stroke="black" d="M280.87,-69C279.7,-79.09 282.23,-88.19 288.47,-88.19 292.46,-88.19 294.94,-84.45 295.89,-79.12" style=""/>
+<polygon fill="black" stroke="black" points="299.39,-79.06 296.07,-69 292.39,-78.94 299.39,-79.06" style=""/>
+<text text-anchor="middle" x="288.47" y="-92.39" font-family="Times,serif" font-size="14.00" style="">a</text>
+</g>
+</g>
+</svg>
