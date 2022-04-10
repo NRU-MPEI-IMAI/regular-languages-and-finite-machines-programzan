@@ -1,0 +1,6 @@
+digraph {
+    "" [shape=none]
+    q1 [shape="doublecircle"]
+    "" -> q1
+    label = "Figure 4: Finite machine to the task 1.4"
+}

@@ -1,0 +1,49 @@
+<svg width="726" height="789" viewBox="0 0 544.5 591.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(160.2550048828125, 482.75)">
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-245.37 240.08,-245.37 240.08,4 -4,4"/>
+<text text-anchor="middle" x="118.04" y="-8.2" font-family="Times,serif" font-size="14.00" style="">Figure 1: Finite machine to the task 1.1</text>
+<g id="node1" class="node">
+<title/>
+</g>
+<!-- q1 -->
+<g id="node3" class="node">
+<title>q1</title>
+<ellipse fill="none" stroke="black" cx="98.33" cy="-147.68" rx="20.89" ry="20.89"/>
+<text text-anchor="middle" x="98.33" y="-143.48" font-family="Times,serif" font-size="14.00">q1</text>
+</g>
+<!-- &#45;&gt;q1 -->
+<g id="edge1" class="edge">
+<title>-&gt;q1</title>
+<path fill="none" stroke="black" d="M98.33,-205.28C98.33,-197.4 98.33,-187.8 98.33,-178.76"/>
+<polygon fill="black" stroke="black" points="101.83,-178.55 98.33,-168.55 94.83,-178.55 101.83,-178.55"/>
+</g>
+<!-- q2 -->
+<g id="node2" class="node">
+<title>q2</title>
+<ellipse fill="none" stroke="black" cx="98.33" cy="-49.49" rx="20.86" ry="20.86"/>
+<ellipse fill="none" stroke="black" cx="98.33" cy="-49.49" rx="24.89" ry="24.89"/>
+<text text-anchor="middle" x="98.33" y="-45.29" font-family="Times,serif" font-size="14.00">q2</text>
+</g>
+<!-- q2&#45;&gt;q2 -->
+<g id="edge4" class="edge">
+<title>q2-&gt;q2</title>
+<path fill="none" stroke="black" d="M121.61,-58.72C132.02,-59.6 141.03,-56.52 141.03,-49.49 141.03,-44.99 137.33,-42.11 131.94,-40.85"/>
+<polygon fill="black" stroke="black" points="131.79,-37.34 121.61,-40.26 131.4,-44.32 131.79,-37.34"/>
+<text text-anchor="middle" x="152.88" y="-45.29" font-family="Times,serif" font-size="14.00">  a,b</text>
+</g>
+<!-- q1&#45;&gt;q2 -->
+<g id="edge3" class="edge">
+<title>q1-&gt;q2</title>
+<path fill="none" stroke="black" d="M98.33,-126.75C98.33,-114.65 98.33,-98.87 98.33,-84.81"/>
+<polygon fill="black" stroke="black" points="101.83,-84.48 98.33,-74.48 94.83,-84.48 101.83,-84.48"/>
+<text text-anchor="middle" x="104.94" y="-96.39" font-family="Times,serif" font-size="14.00">  c</text>
+</g>
+<!-- q1&#45;&gt;q1 -->
+<g id="edge2" class="edge">
+<title>q1-&gt;q1</title>
+<path fill="none" stroke="black" d="M118.24,-154.59C128.17,-155.55 137.03,-153.25 137.03,-147.68 137.03,-144.2 133.57,-142 128.55,-141.07"/>
+<polygon fill="black" stroke="black" points="128.34,-137.56 118.24,-140.77 128.14,-144.56 128.34,-137.56"/>
+<text text-anchor="middle" x="148.88" y="-143.48" font-family="Times,serif" font-size="14.00">  a,b</text>
+</g>
+</g>
+</svg>

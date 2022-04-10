@@ -1,0 +1,12 @@
+digraph {
+    "" [shape=none]
+    node [shape=circle]
+    q1 [shape="doublecircle"]
+    "" -> q1
+    q1 -> q1[label="a"]
+    q1 -> q2[label="a,b"]
+    q2 -> q3[label="a,b"]
+    q3 -> q1[label="b"]
+    rankdir = LR
+    label = "Figure 3.1: Deterministic finite machine to the task 3.3"
+}
